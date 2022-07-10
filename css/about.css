@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+body{
+    background: #f4f1de;
+}
+
+.about-header{
+    padding: 0 0px;
+}
+
+.about-hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7), 
+    rgba(4,9,30,0.7)), url(../images/about-hero.jpg);
+    content: '';
+    margin-top: 20px;
+    min-height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.about-hero-contents{
+    width: 90%;
+    color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.about-hero-contents h1{
+    font-size: 50px;
+}
+
+.about-hero-contents p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: coral;
+}
+
+@media (max-width:700px) {
+    .about-hero{
+        min-height: 20vh;
+    }
+
+    .about-hero-contents h1{
+        font-size: 30px;
+    }
+    .about-hero-contents p{
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* about content section */
+.about-content{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-content .content img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.about-text{
+    margin-top: 5%;
+    width: 800px;
+    max-width: 100%;
+    padding: 0;
+}
+
+.content{
+    
+    width: 98%;
+    max-width: 95%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: #f95738;
+    font-size: 55px;
+    margin-bottom: 20px;
+    
+}
+
+.about-text h5{
+    color: crimson;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+
+.about-text p{
+    color: black;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+
+/*About content responsiveness*/
+@media screen and (max-width: 1209px){
+    .about-content{
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+
+    .about-content .content img{
+        margin-bottom: 35px;
+    }  
+}
+
+
+@media screen and (max-width: 650px) {
+    .about-content{
+        padding-top: 25px;
+    }
+
+    .about-content .content img{
+       margin-bottom: 35px;
+
+    }
+    .content{
+        margin: 0px auto;
+    }
+    
+    .about-text{
+        margin-top: 0;
+    }
+    .about-text h2{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .about-text h5{
+        font-size: 16px;
+    }
+    .about-text p{
+        font-size: 14px;
+        font-weight: 540;
+    }
+
+}
+
+
+
+
+/* Legal documents section*/
+.certificates{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.certificate-container{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.certificates h2{
+font-size: 36px;
+    font-weight: 600;
+    color: #f95738;
+}
+
+.certificates p{
+    color: #f95738;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+/*certificate container boxes*/
+.certificate-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    margin-bottom: 5%;
+
+}
+.certificate-container{
+    height: auto;
+    width: 80%;
+    max-width: 100%;
+}
+
+.certificate-content{
+    width: 98%;
+    max-width: 100%;
+    margin: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+}
+
+.certificate-content h1{
+    color: #1d3557;
+}
+
+.certificate-content p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin: 18px 10px;
+    color: #1d3557;
+}
+
+
+.certificate-list1{
+    flex: 1;
+    background: #a8dadc;
+    padding: 10px;
+    font-size: 15px;
+    margin: 8px;
+}
+.certificate1-img{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+.certificate-list2{
+    flex: 2;
+    background: #e9c46a;
+    padding: 10px;
+    font-size: 15px;
+    margin: 8px;
+}
+.certificate2-img{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 5%;
+    margin-top: 2.5%;
+}
+
+.certificate-list3{
+    flex: 1;
+    background: #f94144;
+    padding: 10px;
+    font-size: 15px;
+    margin: 8px;;
+}
+.certificate3-img{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+
+@media screen and (max-width:1209px) {
+    .certificate-container{
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+    margin-bottom: 10%;
+
+    
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .certificate-container{
+        margin: 0 auto;
+        height: auto;
+        width: 400px;
+        max-width: 100%;
+        margin-bottom: 15%;
+
+    }
+}
+
+
+

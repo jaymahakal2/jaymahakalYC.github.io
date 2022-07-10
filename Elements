@@ -1,0 +1,31 @@
+color:
+
+header & footer 
+- #f48c06
+
+menu a
+- #fff
+
+menu a, show menu button, hide menu button hover
+- #004b23
+
+mobile size menu background
+- #e09f3e
+
+
+footer social
+- #003356
+
+footer copyright background
+- #f94144
+
+
+Text:
+Hero Text
+- भोको लाई भोजन प्यासी लाई पानी 
+- कोइ भोकै नरहुन कोइ प्यासी नमरुन 
+
+hover text
+- धर्म को रक्षा 
+- गरीब दुखी को सहयोग
+- देश को समृदी 

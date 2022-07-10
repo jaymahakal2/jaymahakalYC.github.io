@@ -1,0 +1,164 @@
+ /*gallery page hero image*/
+.gallery-hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7), 
+    rgba(4,9,30,0.7)), url(../images/gallery5.webp);
+    content: '';
+    margin-top: 20px;
+    min-height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.gallery-hero-contents{
+    width: 90%;
+    color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.gallery-hero-contents h1{
+    font-size: 50px;
+}
+
+.gallery-hero-contents p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: coral;
+}
+
+@media (max-width:700px) {
+    .gallery-hero{
+        min-height: 20vh;
+    }
+
+    .gallery-hero-contents h1{
+        font-size: 30px;
+    }
+    .gallery-hero-contents p{
+        font-size: 20px;
+    }
+}
+
+
+
+/*gallery list title section*/
+
+.image-list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.image-list h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #f95738;
+    /*background: chocolate;
+    height: 60px;
+    line-height: 60px; */
+    
+}
+.image-list p{
+    color: #f95738;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+/*gallery image container start from here*/
+.image-container{
+    margin-left: 40px;
+    margin-top: 1%;
+    display: block;
+    padding: 5px;
+
+}
+
+.image-box{
+    float: left;
+    width: 340px;
+    padding: 12px;
+    overflow: hidden;
+    border-radius: 5px;;
+}
+
+.gallery{
+    max-width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+img:hover{
+    transform: scale(2,2);
+    transition: 1s transform;
+}
+
+
+
+/*Video list start from here*/
+
+.video-list{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    
+    
+}
+.video-list h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #f95738;
+    /*background: chocolate;
+    height: 60px;
+    line-height: 60px; */
+    
+}
+.video-list p{
+    color: #f95738;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+
+/*gallery start from here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    
+}

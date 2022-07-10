@@ -1,0 +1,140 @@
+ /*Helping hand page hero image*/
+.donates-hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7), 
+    rgba(4,9,30,0.7)), url(../images/helpingHands-hero.JPG);
+    content: '';
+    margin-top: 20px;
+    min-height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.donates-hero-contents{
+    width: 90%;
+    color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.donates-hero-contents h1{
+    font-size: 50px;
+}
+
+.donates-hero-contents p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: coral;
+}
+
+@media (max-width:700px) {
+    .donates-hero{
+        min-height: 20vh;
+    }
+
+    .donates-hero-contents h1{
+        font-size: 30px;
+    }
+    .donates-hero-contents p{
+        font-size: 20px;
+    }
+}
+
+
+
+/*Doner list title section*/
+
+.doner-list{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 3%;
+    
+}
+.doner-list h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #f95738;
+    /*background: chocolate;
+    height: 60px;
+    line-height: 60px; */
+    
+}
+.doner-list p{
+    color: #f95738;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+/*Doner list start from here*/
+.doner-cards{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+/*ef233c*/
+
+.doner-detail-card{
+    background-color: #e71d36;
+    padding: 8px;
+    border: 3px solid white;
+}
+
+.border{
+    padding: 16px;
+    border: 3px solid white;
+}
+
+.card-content h3{
+    color: gold;
+}
+.card-content span{
+    color: white;
+}
+
+.doner-cards .doner-detail-card{
+    width: 16rem;
+    margin: 15px;
+}
+.doner-cards p{
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .doner-list{
+        padding-top: 10px;
+
+    } 
+    .doner-cards .doner-detail-card{
+        width: 16rem;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    
+}

@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.contact-hero{
+    background-image: linear-gradient(rgba(4,9,30,0.7), 
+    rgba(4,9,30,0.7)), url(../images/contact-hero2.jpg);
+    content: '';
+    margin-top: 20px;
+    min-height: 40vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.contact-hero-contents{
+    width: 90%;
+    color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.contact-hero-contents h1{
+    font-size: 50px;
+}
+
+.contact-hero-contents p{
+    margin: 10px 0 40px;
+    font-size: 25px;
+    color: coral;
+}
+
+@media (max-width:700px) {
+    .contact-hero{
+        min-height: 20vh;
+    }
+
+    .contact-hero-contents h1{
+        font-size: 30px;
+    }
+    .contact-hero-contents p{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/*contact main section*/
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 3%;
+}
+
+.contact-us h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #f95738;
+    /*background: chocolate;
+    height: 60px;
+    line-height: 60px; */
+    
+}
+.contact-us p{
+    color: #f95738;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+
+
+
+/*contact info start from here*/
+.contact-body{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.contact-info{
+    margin: 25px 0;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #c7c7c7;
+
+}
+
+.contact-info span{
+    display: block;
+}
+
+.contact-info div{
+    margin: 8px 0;
+    padding: 10px;
+}
+
+.contact-info span .fas{
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #00509d;
+}
+
+.contact-info div span:nth-child(2){
+    font-weight: 500;
+    font-size: 11px;
+    
+}
+
+.contact-info .text{
+    padding-top: 4px;
+}
+
+.contact-form{
+    padding: 20px 0;
+    margin-top: 5%;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.contact-form h3{
+    color: #00509d;
+    margin-bottom: 4%;
+    
+}
+
+.contact-form form{
+    padding-bottom: 10px;
+}
+
+.form-control{
+    width: 100%;
+    border: 1.5px solid #c7c7c7;
+    border-radius: 5px;
+    padding: 14px;
+    margin: 6px 0;
+    font-size: 14px;
+    outline: 0;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6px;
+}
+
+.send-btn{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: white;
+    background: #00509d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.send-btn:hover{
+    opacity: 0.8;
+    
+}
+
+.contact-form > div img{
+    width: 85%;
+    border: 1px solid white;
+        border-radius: 50%;
+}
+
+.contact-form > div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.map{
+    margin-bottom: 4%;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+@media screen and (min-width: 800px) {
+
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-form{
+        margin-bottom: 5%;
+    }
+
+    .mahakal-image img{
+        margin-bottom: 5%;
+        
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .contact-form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .contact-form form{
+        margin-bottom: 8%;
+    }
+
+    .mahakal-image img{
+        margin-bottom: 8%;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+    .contact-body{
+        margin-bottom: 4%;
+    }
+    .contact-info{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+
+
+/*Other location section start here*/
+.branch-cards{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+/*ef233c*/
+
+.branch-detail-card{
+    border-style: double;
+    border-width: 5px;
+    border-color: #f95738;
+    padding: 8px;
+}
+
+.card-content h3{
+    color: #1a535c;
+}
+.card-content span{
+    color: #1a535c;
+}
+
+.branch-cards .branch-detail-card{
+    width: 16rem;
+    margin: 15px;
+}
+.branch-cards p{
+    font-size: 14px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    
+}
